@@ -17,7 +17,7 @@ Link in Bio Template using Astro, React & TailwindCSS
 Clone the repository
 
 ```bash
-git clone https://github.com/flamrdevs/astrolinkt.git
+git clone https://github.com/yuhangch/chenyuhang.com.git
 ```
 
 Install packages

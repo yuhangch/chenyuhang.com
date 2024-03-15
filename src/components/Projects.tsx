@@ -1,25 +1,25 @@
 import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
-import { Lucide } from "./icons";
+import { Lucide ,Simple} from "./icons";
 
 const projects = [
   {
-    title: "astrolinkt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrolinkt",
+    title: "zhmoji",
+    description: "用作搜狗拼音自定义短语，输入😄而不是图片。",
+    icon: Simple.IconEmoji,
+    url: "https://github.com/yuhangch/zhmoji",
   },
   {
-    title: "astrovehnt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrovehnt",
+    title: "ol-search",
+    description: "Openlayers Api docs search extension",
+    icon: Simple.IconOpenlayers,
+    url: "https://github.com/yuhangch/ol-search",
   },
   {
-    title: "astrobuckt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrobuckt",
+    title: "obsight",
+    description: "草稿本",
+    icon: Simple.IconDrafts,
+    url: "https://open.yuhang.ch/",
   },
 ];
 

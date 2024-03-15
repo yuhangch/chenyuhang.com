@@ -1,14 +1,15 @@
 import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
 
-import coloradix, { slate, orange } from "@coloradix/tailwindcss";
+import coloradix, { slate, orange,sand } from "@coloradix/tailwindcss";
 
 const radix = coloradix({
   slate,
+  sand,
   orange,
 })
   .alias({
-    neutral: "slate",
+    neutral: "sand",
     primary: "orange",
   })
   .build();
@@ -23,8 +24,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter"].concat(defaultTheme.fontFamily.sans),
-        mono: ["Roboto Mono"].concat(defaultTheme.fontFamily.mono),
+        sans: ["Verdana"].concat(defaultTheme.fontFamily.sans),
+        // mono: ["Roboto Mono"].concat(defaultTheme.fontFamily.mono),
       },
     },
   },

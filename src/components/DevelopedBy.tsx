@@ -2,15 +2,14 @@ const DevelopedBy = () => {
   return (
     <div className="mb-8 font-mono text-neutral-10 text-xs text-center">
       <span>
-        Developed by{" "}
+        {/*Developed by{" "}*/}
         <a
-          href="https://github.com/flamrdevs"
+          href="https://github.com/yuhangch"
           className="inline-block transition duration-300 hover:-translate-y-px outline-none hover:text-primary-10 focus-visible:text-primary-10"
           target="_blank"
           aria-label="Developer"
         >
-          {" "}
-          flamrdevs
+          @yuhangch {" "} {new Date().getFullYear()}
         </a>
       </span>
     </div>
