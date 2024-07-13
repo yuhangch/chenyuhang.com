@@ -21,6 +21,12 @@ const projects = [
     icon: Simple.IconDrafts,
     url: "https://open.yuhang.ch/",
   },
+  {
+    title: "astro theme panda",
+    description: "astro blog theme named panda🐼",
+    icon: Simple.IconPanda,
+    url: "https://github.com/yuhangch/astro-theme-panda",
+  },
 ];
 
 export default () => {
