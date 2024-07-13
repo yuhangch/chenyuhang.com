@@ -1,13 +1,10 @@
-import {Avatar, Button} from "./ui";
-import {Lucide, Simple} from "./icons";
+import { Button} from "./ui";
+import { Simple} from "./icons";
 
 export default () => {
     return (
         <div className="flex flex-col items-start gap-6 lg:gap-8 px-3 lg:px-6 py-4">
             <div className="flex flex-row items-center gap-4">
-                {/*<Avatar src="/avatar.webp" alt="profile-picture">*/}
-                {/*  <Lucide.IconUser className="size-2/3" />*/}
-                {/*</Avatar>*/}
                 <img src="/avatar.webp" alt="profile-picture" className="w-20 pb-5"/>
 
                 <div className="flex flex-col items-start gap-2">
